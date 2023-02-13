@@ -8,7 +8,15 @@
     <string name="lastname">Lastname</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="Welcome_msg">Read our privacy policy."Tap agree and continue" to accepts out terms of service</string>
+    <string name="Welcome_msg">
+        Welcome to CHATBOT
+    We are thrilled to have you on board! Our AI-powered chatbot is here to assist you with all your needs, 24/7.
+    Here is what you can expect from us:
+    - Quick and accurate responses
+    - Personalized experience
+    - Assistance with any queries or concerns
+
+    </string>
 
 
     <!--    login page-->
@@ -17,14 +25,24 @@
 
 
     <!--    geting started-->
-    <string name="introduction1">In the Create account page,fill in your personal information, including your name, email address, and desired password.\n
-An Otp code will be sent to your email</string>
-    <string name="introduction2">To complete the account creation process, you will need to verify your email address. A verification code will be sent to the email address you provided when signing up.
-        This code is used to confirm that you have access to the email address and that it is valid.\n Note that the verification code is only valid for 30 minutes after being sent.</string>
-    <string name="introduction3">To log into your account, you will need to provide your email address and password.In the Register page click on the "already have an account" button.\n
-    1.Enter the email address associated with your account in the designated field.\n
-    2.Enter your password in the designated field.\n
-    3.Click on the "Login" or "Sign In" button to access your account.
+    <string name="introduction1">
+        We are your personal AI-powered assistant, ready to answer any question you have. Our advanced technology and vast knowledge base ensure that you receive the most accurate and relevant information.
+        Ask us anything, and we will do our best to provide you with a helpful response.
+    </string>
+    <string name="introduction2">\n\n\n
+    Read the welcome message: The welcome page will provide an introduction to the chatbot and what it can do.
+
+    Ask a question: Type your question or request into the chat interface and press enter to send it to the chatbot.
+
+    Wait for a response: The chatbot will process your request and provide an answer in a matter of seconds.
+
+    Interact with the chatbot: If you need additional information or clarification, feel free to ask follow-up questions or provide additional details.
+
+    End the conversation: When have finished using the chatbot, simply close the application or navigate away from the page.
+    </string>
+    <string name="introduction3">
+        The information provided by This bot is intended for general informational purposes only and is not a substitute for professional advice.
+        While we strive to provide accurate and up-to-date information, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the chatbot or the information, products, services, or related graphics contained in the chatbot for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
     </string>
     <string name="introduction4"> In case you forgot your password click on the "Forgot Password" link,on the login page.\n
     1. Enter the email address associated with your account.\n
@@ -42,10 +60,13 @@ An Otp code will be sent to your email</string>
     Contribute to Development: Do you have ideas for new features or improvements? Do you have skills you would like to share? Click the "Contribute" button to learn more about how you can get involved and make a difference.</string>
     <string name="shakerscommunity2">We are always here to listen. If you have any questions or feedback, please use the contact form to get in touch with our team. Thank you for your support!
 </string>
-    <string name="aboutBot">This bot, is user-friendly, intuitive, and efficient tool designed to provide fast and accurate results.
-        The chat bot uses advanced algorithms and machine learning techniques to deliver reliable answers and recommendations.
-        Its versatility allows it to handle a wide range of topics and tasks, making it a valuable resource for users.
-        The innovative design and cutting-edge technology used in the chat bot provides a unique and engaging experience.
-        The chat bots conversational interface makes it a convenient and powerful tool, allowing users to access information and perform
-        tasks from the comfort of their own device.</string>
+    <string name="aboutBot">
+
+This Bot is an AI-powered chatbot designed to provide quick and accurate answers to any question you have. Our advanced technology and vast knowledge base make it easy for you to receive the information you need, when you need it.
+
+Whether you are looking for information on a specific topic, need help with a task, or just want to chat, Bot is here to assist you. Our user-friendly interface and conversational style make it easy for you to interact with the chatbot, and our commitment to accuracy and helpfulness ensures that you receive the best possible experience.
+
+So why wait? Try OurBot today and see for yourself how we can help you with all your questions and needs.
+
+    </string>
 </resources>

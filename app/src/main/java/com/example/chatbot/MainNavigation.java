@@ -46,4 +46,9 @@ public class MainNavigation extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public  void toIntro5(View view)
+    {
+        Intent intent=new Intent(this,Introduction5.class);
+        startActivity(intent);
+    }
 }

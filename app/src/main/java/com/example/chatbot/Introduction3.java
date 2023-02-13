@@ -19,7 +19,7 @@ public class Introduction3 extends AppCompatActivity {
     }
     public void  toIntro4(View view)
     {
-        Intent intent =new Intent(this,Introduction4.class);
+        Intent intent =new Intent(this,Introduction5.class);
         startActivity(intent);
 
     }
