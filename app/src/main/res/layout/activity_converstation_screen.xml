@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConverstationScreen"
+    android:background="@color/white"
+
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:id="@+id/TopHeaderConverstation"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bot converstation screen"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:fontFamily="@font/omegle"
+            android:textStyle="bold"
+            android:textColor="@color/cyan"
+            android:textSize="25sp"
+            android:id="@+id/title"
+            android:layout_marginTop="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background_main_menu"
+            android:layout_alignParentBottom="true"
+            android:elevation="10dp"
+            >
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TopHeaderConverstation"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+           <androidx.recyclerview.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/recyclerView"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/cyan"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Type message"
+            android:lines="50"
+            android:layout_weight="4"
+            android:height="50dp"
+            android:textColor="@color/black"
+            android:id="@+id/typedMessage"
+
+
+
+
+            />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_send_24"
+            android:clickable="true"
+            android:onClick="SendMessage"
+
+            />
+
+
+    </LinearLayout>
+
+
+    </RelativeLayout>
+

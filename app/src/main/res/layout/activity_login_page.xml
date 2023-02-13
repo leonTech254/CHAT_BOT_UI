@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".RegisterPage"
+    android:padding="20dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LoginPageTitle"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:background="#BA0C432D"
+            android:paddingLeft="10sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="20dp"
+
+            />
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="30dp"
+            android:background="#BA0C432D"
+            android:paddingLeft="10sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red"
+            android:drawableLeft="@drawable/baseline_dialpad_24"
+            android:drawablePadding="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            >
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOG in"
+                android:onClick="UserLogIn"
+                android:gravity="center"
+                android:textColor="@color/purple_500"
+
+
+                />
+
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/createAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create account | "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:onClick="toRegister"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="forgot password?"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/createAccount"
+                android:onClick="toForgotPassword"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

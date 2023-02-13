@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".RegisterPage"
+    android:padding="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RegisterPageTitle"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"
+
+            />
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/Firstname"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:background="#BA0C432D"
+            android:paddingLeft="20sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:drawablePadding="20dp"
+
+            />
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/lastname"
+            android:inputType="text"
+            android:layout_marginTop="30dp"
+            android:background="#BA0C432D"
+            android:paddingLeft="10sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:drawablePadding="20dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:background="#BA0C432D"
+            android:paddingLeft="10sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="20dp"
+
+
+
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginTop="30dp"
+            android:background="#BA0C432D"
+            android:paddingLeft="10sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/red"
+            android:drawableLeft="@drawable/baseline_dialpad_24"
+            android:drawablePadding="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:onClick="Register"
+                android:gravity="center"
+
+
+
+
+                />
+
+            
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="toLogin"
+
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

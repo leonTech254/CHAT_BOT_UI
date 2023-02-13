@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ChatBot</string>
+
+
+    <!--  Registration strings-->
+    <string name="RegisterPageTitle">CREATE ACCOUNT</string>
+    <string name="Firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Welcome_msg">Read our privacy policy."Tap agree and continue" to accepts out terms of service</string>
+
+
+    <!--    login page-->
+    <string name="LoginPageTitle">SIGN IN</string>
+    <string name="forgotpass">Recover Account</string>
+
+
+    <!--    geting started-->
+    <string name="introduction1">In the Create account page,fill in your personal information, including your name, email address, and desired password.\n
+An Otp code will be sent to your email</string>
+    <string name="introduction2">To complete the account creation process, you will need to verify your email address. A verification code will be sent to the email address you provided when signing up.
+        This code is used to confirm that you have access to the email address and that it is valid.\n Note that the verification code is only valid for 30 minutes after being sent.</string>
+    <string name="introduction3">To log into your account, you will need to provide your email address and password.In the Register page click on the "already have an account" button.\n
+    1.Enter the email address associated with your account in the designated field.\n
+    2.Enter your password in the designated field.\n
+    3.Click on the "Login" or "Sign In" button to access your account.
+    </string>
+    <string name="introduction4"> In case you forgot your password click on the "Forgot Password" link,on the login page.\n
+    1. Enter the email address associated with your account.\n
+    2. Click the "Submit" or "Reset Password" button.\n
+    3. Check your email for a password reset message from your application. This message will contain instructions on how to reset your password, such as clicking on a link or entering a code.\n
+    4. Follow the instructions provided in the email to reset your password.\n
+    Once you have successfully reset your password, you should be able to log into your account using your new password.</string>
+    <string name="introduction5">thhis is a simple introduction page</string>
+    <string name="shakersCommunity">Welcome to the Support page of our app! We are dedicated to providing the best experience for our users and value your feedback. If you would like to support our app and its development, you have several options:\n
+
+    Join our Shakers Community: Connect with other users, share your thoughts and experiences, and stay updated on the latest developments. Click the "Join Community" button to learn more and get involved.\n
+
+    Donate Funds: Your financial support helps us continue to improve and maintain the app. Click the "Donate" button to learn more about the donation process and make a contribution.\n
+
+    Contribute to Development: Do you have ideas for new features or improvements? Do you have skills you would like to share? Click the "Contribute" button to learn more about how you can get involved and make a difference.</string>
+    <string name="shakerscommunity2">We are always here to listen. If you have any questions or feedback, please use the contact form to get in touch with our team. Thank you for your support!
+</string>
+    <string name="aboutBot">This bot, is user-friendly, intuitive, and efficient tool designed to provide fast and accurate results.
+        The chat bot uses advanced algorithms and machine learning techniques to deliver reliable answers and recommendations.
+        Its versatility allows it to handle a wide range of topics and tasks, making it a valuable resource for users.
+        The innovative design and cutting-edge technology used in the chat bot provides a unique and engaging experience.
+        The chat bots conversational interface makes it a convenient and powerful tool, allowing users to access information and perform
+        tasks from the comfort of their own device.</string>
+</resources>
