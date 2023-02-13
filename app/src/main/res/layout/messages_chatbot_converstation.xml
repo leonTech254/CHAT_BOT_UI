@@ -17,7 +17,6 @@
             android:background="@drawable/message_me"
             android:textSize="18sp"
             android:textColor="@color/white"
-
             android:layout_marginBottom="8dp"
 
 
