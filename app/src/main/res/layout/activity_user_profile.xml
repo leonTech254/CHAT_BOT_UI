@@ -73,7 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wambugu Martin"
+                android:text="Shakers"
                 android:fontFamily="@font/handpackscript"
                 android:textSize="35sp"
                 android:textStyle="bold"
@@ -101,12 +101,15 @@
         android:gravity="center"
         android:padding="10dp"
         android:layout_marginTop="20dp"
+
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/introduction5"
+            android:text="Coming soon!"
             android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
             />
 
         <androidx.appcompat.widget.AppCompatButton
